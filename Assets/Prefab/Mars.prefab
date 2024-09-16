@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3135294877708181137}
   - component: {fileID: 4445317232640551845}
   - component: {fileID: 4087552613592971169}
+  - component: {fileID: 7635022673176761256}
   m_Layer: 0
   m_Name: Mars
   m_TagString: Untagged
@@ -108,3 +109,18 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7635022673176761256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8408870452179569351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a95475a88547d664fa0a9f263ebb2a97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  centre: {fileID: 0}
+  tempsRotation: 0
+  temps: {fileID: 0}

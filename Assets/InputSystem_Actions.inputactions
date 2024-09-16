@@ -15,18 +15,18 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Inclinaison",
+                    "name": "Zoom",
                     "type": "Value",
-                    "id": "3a46ff00-4c3a-4e54-b084-78c4a0fd67e6",
-                    "expectedControlType": "Axis",
+                    "id": "26d46fb0-5673-4611-ad1e-8e6d8d2b9c6e",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Zoom",
+                    "name": "Inclinaison",
                     "type": "Value",
-                    "id": "77f1028c-645b-4c5a-bbe7-b3c3a1a634ba",
+                    "id": "3a46ff00-4c3a-4e54-b084-78c4a0fd67e6",
                     "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": "",
@@ -167,48 +167,70 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "",
-                    "id": "32e8df49-9e51-4da1-8ffe-c071bda27453",
+                    "name": "ZX",
+                    "id": "3811f26d-e67f-4074-bfbf-1fb8b36235f0",
+                    "path": "Dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Zoom",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "27ef0193-e666-42de-90f6-adb1a862cfc1",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Zoom",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "3d0bdd49-9ded-406e-9e1b-b20603d688c1",
+                    "path": "<Keyboard>/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Zoom",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "cd04f916-ff51-4ede-a0b2-e6cc237b25b2",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Inclinaison",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "f1dca89d-76ca-47c5-b90a-448b4dca5058",
                     "path": "<Keyboard>/c",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Inclinaison",
                     "isComposite": false,
-                    "isPartOfComposite": false
+                    "isPartOfComposite": true
                 },
                 {
-                    "name": "",
-                    "id": "1610db40-7c7c-4637-8181-a04e4de5e9ea",
+                    "name": "positive",
+                    "id": "cbdf3cfa-d808-46a1-9700-b6e5f7933902",
                     "path": "<Keyboard>/v",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Inclinaison",
                     "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "4ecf5cfe-4474-4a07-8e05-afc2aff7e031",
-                    "path": "<Keyboard>/z",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Zoom",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "b26a1979-32c0-4679-83ff-8bd1bf2a5eb8",
-                    "path": "<Keyboard>/x",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Zoom",
-                    "isComposite": false,
-                    "isPartOfComposite": false
+                    "isPartOfComposite": true
                 }
             ]
         },
